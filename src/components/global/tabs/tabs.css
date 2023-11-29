@@ -1,0 +1,26 @@
+.tabs{
+    width: 90%;
+    height: 400px;
+    text-align: center;
+    padding: 20px 0;
+}
+ .tabs   h1{
+        width: 100%;
+        height: 50px;
+        background: rgba(232, 76, 232, 0.83);
+        color: white;
+     border-radius: 15px;
+
+ }
+ .tabs h2{
+     width: 500px   ;
+     height: 50px;
+     background: rgb(221, 160, 221);
+     color: white;
+     margin: 20px 0;
+     border-radius: 15px;
+
+ }
+ .tabs button{
+     width: 500px   ;
+ }

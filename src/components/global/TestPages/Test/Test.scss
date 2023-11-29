@@ -1,0 +1,87 @@
+.test-page {
+    width: 1000px;
+    height: 1550px;
+    border: solid 2px rgba(128, 0, 128, 0.86);
+}
+
+.test-page-inside {
+    margin-left: 60px;
+}
+
+.test-btn {
+    width: 100px;
+    border: solid 2px grey;
+    background: rgba(105, 105, 105, 0.27);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-btn h3{
+    font-size: 20px;
+}
+
+.btn-both{
+    width: 1000px;
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.test-page-inside a {
+    width: 100px;
+    font-size: 20px;
+    border: solid 2px grey;
+    background: rgba(105, 105, 105, 0.27);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.question p {
+    width: 800px;
+    font-size: 20px;
+
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+input {
+    width: 18px;
+    height: 18px;
+}
+
+.question button {
+    padding: 10px 0;
+    width: 230px;
+}
+
+h4 {
+    color: black;
+    font-size: 20px;
+    border: solid 2px grey;
+    background: gainsboro;
+    border-radius: 4px;
+}
+span{
+    color: black;
+}
+.test-page-inside h5{
+    font-size: 30px;
+}
+.test-page-inside h1{
+    font-size: 25px;
+}

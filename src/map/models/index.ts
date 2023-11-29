@@ -1,0 +1,1 @@
+export type {RegionMapProps} from './map.model'

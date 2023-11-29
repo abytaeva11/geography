@@ -1,0 +1,56 @@
+.kg_map {
+	position: relative;
+	flex-wrap: nowrap;
+	width: 890px;
+	height: 450px;
+	transform: scale(1);
+	& .map_title_icon {
+		border-radius: 50%;
+		border: 2px solid #0B1F7C;
+		transition: 300ms;
+		padding: 2px;
+		margin-bottom: -10px;
+		&_dot {
+			width: 12px;
+			height: 12px;
+			border-radius: 50%;
+			border: 2px solid rgba(255, 255, 255, 0);
+		}
+	}
+}
+
+@media (max-width: 1700px) {
+	.kg_map {
+	  transform: scale(0.8);
+	  left: -80px;
+	}
+  }
+  @media (max-width: 1400px) {
+	.kg_map {
+	  transform: scale(1);
+	  left: auto;
+	}
+  }
+  @media (max-width: 992px) {
+	.kg_map {
+	  transform: scale(0.8);
+	}
+  }
+  @media (max-width: 885px) {
+	.kg_map {
+	  transform: scale(0.6);
+	  left: -50px;
+	}
+  }
+  @media (max-width: 672px) {
+	.kg_map {
+	  transform: scale(0.5);
+	  left: -80px;
+	}
+  }
+  @media (max-width: 542px) {
+	.kg_map {
+	  transform: scale(0.4);
+	  left: -100px;
+	}
+  }
