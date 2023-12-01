@@ -79,8 +79,8 @@ class Pages extends Component<{}, PagesState> {
         return (
             <div className="pages">
                 <ReactPageFlip
-                    width={1000}
-                    height={900}
+                    width={1200}
+                    height={1100}
                     className="stage"
                     //@ts-ignore
                     onPageChange={this.onPageChange}
