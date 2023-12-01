@@ -39,7 +39,7 @@ const Global = () => {
                 </div>
                 <div className="pages-global">
                     <Routes>
-                        <Route path="/home-page" element={<Pages/>}/>
+                        <Route path="/" element={<Pages/>}/>
                         <Route path="/test" element={<Test/>}/>
                         <Route path="/sleep-work" element={<Pages/>}/>
 
