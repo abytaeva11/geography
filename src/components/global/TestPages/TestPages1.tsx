@@ -27,7 +27,7 @@ function TestPages1() {
     const correctAnswer5 = 2;
 
     const handleAnswerSelected = (isCorrect: boolean) => {
-        console.log(isCorrect ? 'Правильно' : 'Неправильно');
+        console.log(isCorrect ? 'туура ' : 'туура эмес');
     };
 
     return (
