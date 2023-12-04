@@ -32,10 +32,10 @@ function Question({ question, options, correctAnswer, onAnswerSelected }: Questi
                     </li>
                 ))}
             </ul>
-            <button onClick={() => setShowResult(true)}><h4>Показать результат</h4></button>
+            <button onClick={() => setShowResult(true)}><h4>Жообу</h4></button>
             {showResult && (
                 <p style={{ color: "white", background: selectedAnswer === correctAnswer ? 'green' : 'red', alignItems: "center", display: "flex", width: "200px" }}>
-                    {selectedAnswer === correctAnswer ? 'Правильно' : 'Неправильно'}
+                    {selectedAnswer === correctAnswer ? 'туура ' : 'туура эмес'}
                 </p>
             )}
         </div>

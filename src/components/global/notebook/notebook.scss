@@ -1,0 +1,153 @@
+.notebook {
+  width: 1150px;
+  border: 2px solid black;
+  padding: 10px 0;
+  height:auto;
+  .notebook-inside {
+    width: 95%;
+    h2{
+      font-family: cursive;
+      font-size: 18px;
+      padding: 20px 0;
+    }
+    h4{
+      font-family: Arial;
+      font-size: 20px;
+      padding: 5px 0;
+    }
+    input:focus {
+      border: none;
+      outline: none;
+    }
+
+    .notebook1 {
+      width: 100%;
+      margin: 0 10px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      flex-direction: column;
+
+.example1-block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .text-svg {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    width: 250px;
+    height: 150px;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    background: rgb(47, 47, 114);
+    backdrop-filter: blur(10px);
+    color: white;
+
+    textarea {
+      margin-left: 20px;
+      width: 220px;
+      height: 60px;
+      color: #ffffff;
+      font-size: 16px;
+      border: none;
+      background: none;
+      outline: none;
+      resize: none;
+      overflow-wrap: break-word;
+      font-family: "Bookman Old Style";
+    }
+  }
+
+  .block-kv {
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    background: rgb(47, 47, 114);
+    backdrop-filter: blur(10px);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+  }
+}
+.example1-block2{
+  width: 100%;
+.example1-block2-both{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+
+  h3{
+    width: 200px;
+    font-size: 18px;
+
+
+  }
+}
+  .example1-block2-both input {
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+
+
+}
+.examples1-block3{
+  width: 100%;
+
+.examples1-inputs{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  .examples1-input1{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .examples1-input1-inside{
+      width: 45%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border: 2px solid black;
+    }
+    input{
+      width: 45%;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid black ;
+    }
+
+    hr{
+      color:black;
+    }
+  }
+}
+}
+    }
+
+
+
+  }
+}
+.text-area{
+  textarea {
+    background-image: linear-gradient(to right, #ccc 1.5px, transparent 1px), linear-gradient(to bottom, #2f2f72 1px, transparent 1px);
+    background-size:100% 30px ;
+    padding: 6px 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
