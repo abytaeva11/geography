@@ -10,6 +10,18 @@ module.exports = {
       current: "currentColor",
       black: "#000",
       white: "#fff",
+      violet:"#8A2BE2FF",
+      country:{
+        100:"#0088FE",
+        200:"#00C49F",
+        300:"#FFBB28",
+        400:"#FF8042",
+        500:"#0B1F7C",
+        600:"#8f8fe7",
+        700:"rgba(128, 0, 128, 0.86)",
+
+      },
+
       gray: {
         100: "#f7fafc",
         200: "#edf2f7",
@@ -24,7 +36,9 @@ module.exports = {
       blue:{
         100:"rgba(73, 220, 255, 1)",
         200:"#2f2f72",
-        300:"#2F2F72FF"
+        300:"#2F2F72FF",
+        400:"rgb(143,143,231)",
+        500:"#3030f1"
       }
     },
 

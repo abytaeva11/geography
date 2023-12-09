@@ -1,12 +1,12 @@
 import React from 'react';
-import Analysis from "src/ui/analysis";
+import Analysis from "src/ui/Progress.tsx/Analysis/analysis";
 import Analysis16 from "src/ui/Progress.tsx/Analysis/Analysis16";
 import {MapKg} from "src/map/Map";
 
 const Pages11 = () => {
     return (
         <div className="pages1">
-            <div className="page-number"><h6>10бет</h6></div>
+            <div className="page-number"><h6>11бет</h6></div>
             <i>2 диаграмма</i>
             <h1>Кыргыз Республикасынын калкынын жылдар боюнча
                 табигый өсүшү</h1>
@@ -25,6 +25,7 @@ const Pages11 = () => {
             <h1>2016-жылдагы аймактар боюнча төрөлгөндөрдүн саны
                 (%. промилль менен)</h1>
             <MapKg/>
+         <h5 className="text-gray-300"> ондош кк  китепти кара </h5>
         </div>
     );
 };
