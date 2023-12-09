@@ -2,6 +2,21 @@ import React from 'react';
 import milk from "../../../../assets/img/milk.jpg"
 
 const Pages43 = () => {
+  const block=[
+   
+   
+    { id: 1, title: "«Бишкек ликёр-арак заводу» ", text: " «Шоро» (Бишкек)" },
+    { id: 1, title: " «Бакай» (Карабалта)", text: "«Артезиан» (Сокулук) " },
+    { id: 1, title: "«Кыргызшампан» ", text: "«Кока-Кола Бишкек Боттлерс» " },
+    { id: 1, title: "« Салкын» (Жалал-Абад) ", text: "«Акун» (Бишкек)  " },
+    { id: 1, title: "Бишкек пиво заводу ", text: "«Нур» (Жалал-Абад) " },
+    { id: 1, title: " «Абдыш-Ата»", text: " " },
+    { id: 1, title: "(Кант) «Аю» (Сокулук) ", text: " " },
+    { id: 1, title: "<<Адис>>> (Беловодск)  ", text: " " },
+
+
+
+  ]
     return (
         <div className="pages1">
             <div className="page-number"><h6>43 бет</h6></div>
@@ -36,18 +51,22 @@ const Pages43 = () => {
             <table className="border-black border-2 w-full">
                 <thead>
                 <tr className="border-black">
-                    <th className="border-black border-2 p-2">Список товаров</th>
-                    <th className="border-black border-2 p-2">Место для написания</th>
+              <th className="border-black border-2 p-2 bg-country-600">Ликёр-арак ишканалары</th>
+              <th className="border-black border-2 p-2 bg-country-600">Алькоголсуз ичимдиктер ишканалары</th>
                 </tr>
                 </thead>
                 <tbody>
 
-                    <tr  className="border-black border-2">
-                        <td className="border-black border-2 p-2"> </td>
-                        <td className="border-black border-2 p-2">
-
-                        </td>
-                    </tr>
+                    {
+                      block.map(el=>(
+                        <tr className="border-black border-2">
+                          <td className="border-black border-2 p-2"> {el.title}</td>
+                          <td className="border-black border-2 p-2">{el.text} </td>
+                        
+                         
+                        </tr>
+                      ))
+                    }
                 </tbody>
             </table>
 
