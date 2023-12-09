@@ -6,6 +6,7 @@
     margin: 0 auto;
     background-color: #a12121;
     border: 1px solid #ddd;
+
 }
 
 .page {
@@ -142,7 +143,7 @@ p {
 .pages3-text2{
     text-align: center;
     width: 90%;
-    height: 80px;
+    height: auto;
     background: #374151;
     color: white;
     border-radius: 15px ;
@@ -191,4 +192,11 @@ p {
     width: 90%;
     height: 2px;
     background: #0B1F7C;
+}
+.block{
+    height: auto;
+    background: #8f8fe7;
+    color: white;
+    padding: 5px 0;
+
 }

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import {NavLink} from "react-router-dom";
+import {FaAngleDoubleLeft, FaAngleDoubleRight} from "react-icons/fa";
 
 interface Product {
     id: number;
@@ -15,17 +17,12 @@ const Notebook3: React.FC = () => {
         { id: 5, name: 'Мамлекеттик сыйлыктары', writing: '' },
         { id: 6, name: 'Мыйзам чыгаруучу органы', writing: '' },
         { id: 7, name: 'Аткаруучу органы', writing: '' },
-        { id: 8, name: 'Аткаруучу органы', writing: '' },
-        { id: 9, name: 'Аткаруучу органы', writing: '' },
-        { id: 10, name: 'Аткаруучу органы', writing: '' },
-
-
     ]);
     const [table, setTable] = useState<Product[]>([
 
-        { id: 1, name: 'Аткаруучу органы', writing: '' },
-        { id: 2, name: 'Аткаруучу органы', writing: '' },
-        { id: 3, name: 'Аткаруучу органы', writing: '' },
+        { id: 1, name: 'Президенттик башкаруу', writing: '' },
+        { id: 2, name: 'Окшош жактары  ', writing: '' },
+        { id: 3, name: 'Парламенттик башкаруу ', writing: '' },
 ])
     const handleTablesChange=(id:number,value:string)=>{
         setTable((prevTables)=>
@@ -34,6 +31,21 @@ const Notebook3: React.FC = () => {
             )
         )
     }
+    const [products2, setProducts2] = useState<Product[]>([
+        { id: 1, name: 'Жогорку кеңещ', writing: '' },
+        { id: 2, name: 'Өкмөт', writing: '' },
+        { id: 3, name: 'Облус', writing: '' },
+        { id: 4, name: 'Шаар', writing: '' },
+        { id: 5, name: 'Район', writing: '' },
+
+    ])
+    const handleWriting = (id: number, value: string) => {
+        setProducts2((prevProducts) =>
+            prevProducts.map((product) =>
+                product.id === id ? { ...product, writing: value } : product
+            )
+        );
+    };
 
     const handleWritingChange = (id: number, value: string) => {
         setProducts((prevProducts) =>
@@ -80,7 +92,39 @@ const Notebook3: React.FC = () => {
                     }
                     </tbody>
                 </table>
+                <h4> З-тапшырма. Кыргыз Республикасынын мамлекеттик бийлик башчытерын жазып чыккыла.</h4>
+                <table className="border-black border-2 w-full">
+                    <thead>
+                    <tr className="border-black">
+                        <th className="border-black border-2 p-2">Мамлекеттик бийлик</th>
+                        <th className="border-black border-2 p-2">Бийлик башчылары</th>
+                    </tr>
+                    </thead>
+                <tbody>
+                {products2.map((product) => (
+                    <tr key={product.id} className="border-black border-2">
+                        <td className="border-black border-2 p-2">{product.name}</td>
+                        <td className="border-black border-2 p-2">
+                            <input
+                                value={product.writing}
+                                onChange={(e) => handleWriting(product.id, e.target.value)}
+                                className="w-full"
+                            />
+                        </td>
+                    </tr>
+                ))}
+                </tbody>
+                </table>
 
+                <div className="w-full items-center justify-between flex pt-10">
+                    <NavLink to="/notebook2" className="btn pr-[90px] w-[20%] bg-blue-300 hover:bg-gray-800 text-white">
+                        <FaAngleDoubleLeft/>
+                        Артка
+                    </NavLink>
+                    <NavLink to="/notebook4" className="btn pl-[90px] w-[20%] bg-blue-300 hover:bg-gray-800 text-white">
+                        Алдыга <FaAngleDoubleRight/>
+                    </NavLink>
+                </div>
             </div>
         </div>
     );

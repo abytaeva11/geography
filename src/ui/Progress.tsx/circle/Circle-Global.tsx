@@ -1,4 +1,7 @@
+// страница 20
+
 import React, { PureComponent, ReactElement } from 'react';
+
 import { PieChart, Pie, Cell, ResponsiveContainer } from 'recharts';
 
 interface CustomizedLabelProps {
@@ -12,13 +15,16 @@ interface CustomizedLabelProps {
 }
 
 const data = [
-    { name: 'Group A', value: 400 },
-    { name: 'Group B', value: 300 },
-    { name: 'Group C', value: 300 },
-    { name: 'Group D', value: 200 },
+    { name: 'Group A', value: 73 },
+    { name: 'Group B', value: 14.6 },
+    { name: 'Group C', value: 5.8 },
+    { name: 'Group D', value: 1.12 },
+    { name: 'Group E', value: 0.9 },
+    { name: 'Group G', value: 0.8 },
+    { name: 'Group S', value: 3.78 },
 ];
 
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042','#0B1F7C','#8f8fe7','rgba(128, 0, 128, 0.86)'];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -41,7 +47,7 @@ const renderCustomizedLabel = ({
     );
 };
 
-export default class Example extends PureComponent {
+export default class Krug extends PureComponent {
     static demoUrl = 'https://codesandbox.io/s/pie-chart-with-customized-label-dlhhj';
 
     render() {
@@ -59,7 +65,7 @@ export default class Example extends PureComponent {
                         dataKey="value"
                     >
                         {data.map((entry, index) => (
-                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                            <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} className="ml-[150px]" />
                         ))}
                     </Pie>
                 </PieChart>
