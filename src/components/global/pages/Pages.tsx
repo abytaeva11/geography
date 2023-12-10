@@ -72,6 +72,48 @@ import Pages65 from "src/components/global/pages/AllPages/Pages65";
 import Pages70 from "src/components/global/pages/AllPages/Pages70";
 import Pages67 from "src/components/global/pages/AllPages/Pages67";
 import Pages39 from "src/components/global/pages/AllPages/Pages39";
+import Pages81 from "src/components/global/pages/AllPages/Pages81";
+import Pages82 from "src/components/global/pages/AllPages/Pages82";
+import Pages83 from "src/components/global/pages/AllPages/Pages83";
+import Pages84 from "src/components/global/pages/AllPages/Pages84";
+import Pages85 from "src/components/global/pages/AllPages/Pages85";
+import Pages86 from "src/components/global/pages/AllPages/Pages86";
+import Pages87 from "src/components/global/pages/AllPages/Pages87";
+import Pages88 from "src/components/global/pages/AllPages/Pages88";
+import Pages89 from "src/components/global/pages/AllPages/Pages89";
+import Pages90 from "src/components/global/pages/AllPages/Pages90";
+import Pages91 from "src/components/global/pages/AllPages/Pages91";
+import Pages92 from "src/components/global/pages/AllPages/Pages92";
+import Pages93 from "src/components/global/pages/AllPages/Pages93";
+import Pages94 from "src/components/global/pages/AllPages/Pages94";
+import Pages95 from "src/components/global/pages/AllPages/Pages95";
+import Pages96 from "src/components/global/pages/AllPages/Pages96";
+import Pages71 from "src/components/global/pages/AllPages/Pages71";
+import Pages72 from "src/components/global/pages/AllPages/Pages72";
+import Pages74 from "src/components/global/pages/AllPages/Pages74";
+import Pages76 from "src/components/global/pages/AllPages/Pages76";
+import Pages78 from "src/components/global/pages/AllPages/Pages78";
+import Pages73 from "src/components/global/pages/AllPages/Pages73";
+import Pages75 from "src/components/global/pages/AllPages/Pages75";
+import Pages77 from "src/components/global/pages/AllPages/Pages77";
+import Pages80 from "src/components/global/pages/AllPages/Pages80";
+import Pages79 from "src/components/global/pages/AllPages/Pages79";
+import Pages102 from "src/components/global/pages/AllPages/Pages102";
+import Pages105 from "src/components/global/pages/AllPages/Pages105";
+import Pages106 from "src/components/global/pages/AllPages/Pages106";
+import Pages107 from "src/components/global/pages/AllPages/Pages107";
+import Pages108 from "src/components/global/pages/AllPages/Pages108";
+import Pages109 from "src/components/global/pages/AllPages/Pages109";
+import Pages110 from "src/components/global/pages/AllPages/Pages110";
+import Pages111 from "src/components/global/pages/AllPages/Pages111";
+import Pages112 from "src/components/global/pages/AllPages/Pages112";
+import Pages97 from "src/components/global/pages/AllPages/Pages97";
+import Pages98 from "src/components/global/pages/AllPages/Pages98";
+import Pages100 from "src/components/global/pages/AllPages/Pages100";
+import Pages101 from "src/components/global/pages/AllPages/Pages101";
+import Pages103 from "src/components/global/pages/AllPages/Pages103";
+import Pages104 from "src/components/global/pages/AllPages/Pages104";
+import Pages99 from "src/components/global/pages/AllPages/Pages99";
 
 interface PagesState {
     currentPage: number;
@@ -205,6 +247,48 @@ class Pages extends Component<{}, PagesState> {
                             {i === 67 && <Pages68/>}
                             {i === 68 && <Pages69/>}
                             {i === 69 && <Pages70/>}
+                            {i === 70 && <Pages71/>}
+                            {i === 71 && <Pages72/>}
+                            {i === 72 && <Pages73/>}
+                            {i === 73 && <Pages74/>}
+                            {i === 74 && <Pages75/>}
+                            {i === 75 && <Pages76/>}
+                            {i === 76 && <Pages77/>}
+                            {i === 77 && <Pages78/>}
+                            {i === 78 && <Pages79/>}
+                            {i === 79 && <Pages80/>}
+                            {i === 80 && <Pages81/>}
+                            {i === 81 && <Pages82/>}
+                            {i === 82 && <Pages83/>}
+                            {i === 83 && <Pages84/>}
+                            {i === 83 && <Pages85/>}
+                            {i === 85 && <Pages86/>}
+                            {i === 86 && <Pages87/>}
+                            {i === 87 && <Pages88/>}
+                            {i === 88 && <Pages89/>}
+                            {i === 89 && <Pages90/>}
+                            {i === 90 && <Pages91/>}
+                            {i === 91 && <Pages92/>}
+                            {i === 92 && <Pages93/>}
+                            {i === 93 && <Pages94/>}
+                            {i === 94 && <Pages95/>}
+                            {i === 95 && <Pages96/>}
+                            {i === 96 && <Pages97/>}
+                            {i === 97 && <Pages98/>}
+                            {i === 98 && <Pages99/>}
+                            {i === 99 && <Pages100/>}
+                            {i === 100 && <Pages101/>}
+                            {i === 101 && <Pages102/>}
+                            {i === 102 && <Pages103/>}
+                            {i === 103 && <Pages104/>}
+                            {i === 104 && <Pages105/>}
+                            {i === 105 && <Pages106/>}
+                            {i === 106 && <Pages107/>}
+                            {i === 107 && <Pages108/>}
+                            {i === 108 && <Pages109/>}
+                            {i === 109 && <Pages110/>}
+                            {i === 110 && <Pages111/>}
+                            {i === 111 && <Pages112/>}
 
 
 
