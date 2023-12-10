@@ -1,5 +1,5 @@
 import React from 'react';
-import Example from "src/ui/Progress.tsx/Progress";
+import Progres14 from "src/ui/Progress.tsx/Progress/Progress";
 
 
 const Pages9 = () => {
@@ -23,7 +23,7 @@ const Pages9 = () => {
             </div>
             <i></i>
             <h1>Кыргыз Республикасын калкынын саны ( миң киши).</h1>
-<Example/>
+<Progres14/>
             <i> Улуттук статистикалык комитетинин маалыматы .</i>
 
            <h4>

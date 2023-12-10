@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import {FaAngleDoubleLeft, FaAngleDoubleRight} from "react-icons/fa";
+import {LuMoveDownLeft, LuMoveDownRight} from "react-icons/lu";
+import {GoArrowDown} from "react-icons/go";
 
 interface Product {
     id: number;
@@ -69,6 +71,24 @@ const Inputs = () => {
                     </tbody>
                 </table>
 
+
+                <table className="border-black m-3 border-2 w-full">
+                    <thead>
+                    <tr className="border-black">
+                        <th className="border-black border-2 p-2 bg-blue-400  text-white hover:bg-gray-700 ">Соода экономикалык байланыштар </th>
+                        <th className="border-black border-2 p-2 bg-blue-400  text-white hover:bg-gray-700 ">Өлкөлөр    </th>
+                        <th className="border-black border-2 p-2 bg-blue-400  text-white hover:bg-gray-700 ">Товарлар   </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr  className="border-black border-2">
+                            <td className="border-black border-2 p-2"></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
                 {/*-----------------------------------*/}
                 <table className="w-full">
                     <tbody>
@@ -134,6 +154,30 @@ const Inputs = () => {
                     </div>
 
                 </div>
+
+    {/*----------------blocks     -----------*/}
+                <div className="f-[90%] flex items-center justify-center flex-col m-2">
+
+                    <h1 className="block w-[400px]  ">Курулуш материалдар өнөр жаны</h1>
+                    <div className="flex items-end text-4xl justify-center"><LuMoveDownLeft/> <LuMoveDownRight/></div>
+
+                    <div className="w-[100%] flex items-center justify-between">
+                        <div className="w-[100%] flex items-center justify-center flex-col">
+                            <h2 className=" block w-[250px] ">Казып алуучу</h2>
+                            <div className=" text-4xl "> <GoArrowDown /></div>
+                            <h2 className=" block w-[250px] ">мрамор, гранит, келки-таш, шагыл, кум ж.б.</h2>
+
+                        </div>
+                        <div className="w-[100%] flex items-center justify-center flex-col">
+                            <h2 className=" block w-[250px] ">Алгач иштетүүчү</h2>
+                            <div className=" text-4xl "> <GoArrowDown /></div>
+                            <h2 className=" block w-[250px] ">бетон, кыш, курулуш айнеги, даяр үйлөр ж.б.</h2>
+
+                        </div>
+                    </div>
+
+                </div>
+
 
             </div>
         </div>
