@@ -10,11 +10,9 @@ const Tabs = () => {
             {/*    <input type="radio" name="theme-buttons" className="btn theme-controller join-item" aria-label="Valentine" value="valentine"/>*/}
             {/*</div>*/}
            <NavLink to="/" className="animated-shape-both  ">
-               <select className="select select-accent  w-[200px] ">
-                   <option disabled selected>Главная страница</option>
-                   <option>Главная страница</option>
-                   <option>мазмуну</option>
-               </select>
+               <div className="select select-accent  w-[200px] ">
+                   <h3 >Главная страница</h3>
+               </div>
            </NavLink>
 
            <NavLink to="/test" className="animated-shape-both  ">
@@ -30,9 +28,11 @@ const Tabs = () => {
               <select className="select select-accent w-[200px] max-w-xs">
                   <option disabled selected> Иш дептер</option>
                   <option>  Иш дептер</option>
-                  <option>мазмуну</option>
               </select>
           </NavLink>
+            <NavLink to="/interactive" >
+                    <div className="select select-accent w-[200px] h-[60px] " >интерактивдик тапшырмалар</div>
+            </NavLink>
         </div>
     );
 };

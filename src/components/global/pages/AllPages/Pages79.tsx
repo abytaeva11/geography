@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaHandPointRight} from "react-icons/fa";
 
 const Pages79 = () => {
     const block = [
@@ -74,6 +75,11 @@ const Pages79 = () => {
                     белгилегиле.
                 </h4>
             </div>
+           <div className="flex w-[50%] items-center justify-center">
+              <h1 className="text-3xl"> <FaHandPointRight /></h1>
+               <a  className="link text-pink-100" href="https://ky.wikipedia.org/wiki/%D0%A7%D2%AF%D0%B9_%D0%BE%D0%B1%D0%BB%D1%83%D1%81%D1%83">Чүй облусу боюнча кененирээк маалымат</a>
+
+           </div>
         </div>
     );
 };
