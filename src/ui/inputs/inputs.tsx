@@ -138,8 +138,11 @@ const Inputs = () => {
                 </div>
 {/*----------параграф-------*/}
                 <h1><span>§ 4.</span> Калктын курамы жана эмгек ресурстары</h1>
+{/*-------------shema----------------*/}
+                <i> 14-схема</i>
+                <b className="text-xl">Талас облусунун административдик-аймактык бирдиктери</b>
 
-{/*------------блок и текст ---------------*/}
+                {/*------------блок и текст ---------------*/}
                 <div className="animated-shape-both">
                     <h4 className="w-[60%]">
                         Эмгек ресурстары. Экономикалык активдүү калк
@@ -185,3 +188,49 @@ const Inputs = () => {
 };
 
 export default Inputs;
+
+
+// ------------------carusel-------------
+// import React, { useState } from 'react';
+// import img10 from "../../../../assets/img/ыссык-кул2.jpg";
+// import img2 from "../../../../assets/img/ыссыккол-2.jpg";
+// import img8 from "../../../../assets/img/ыссык-кул4.jpg";
+// import img4 from "../../../../assets/img/ыссык-кул5.jpg";
+// import img6 from "../../../../assets/img/ыссык-кул7.jpg";
+// import img7 from "../../../../assets/img/ыссык-кул8.jpg";
+// import img9 from "../../../../assets/img/ыссык-кул9.jpg";
+// import img3 from "../../../../assets/img/ыссык-кул3.jpg";
+// import img1 from "../../../../assets/img/ыссык-кул10.jpg";
+//
+// const Pages89 = () => {
+//     const [currentIndex, setCurrentIndex] = useState(0);
+//     const images = [img1, img2, img3, img4, img6, img7, img8, img9, img10];
+//
+//     const handleButtonClick = (index:number) => {
+//         setCurrentIndex((prevIndex) => (index >= 0 && index < images.length ? index : prevIndex));
+//     };
+//
+//     return (
+//         <div className="pages1">
+//             <div className="page-number"><h6>89 бет</h6></div>
+//
+//             <div className="carousel w-full">
+//                 {images.map((img, index) => (
+//                     <div key={index} className={`carousel-item w-full h-[500px] ${currentIndex === index ? 'visible' : 'hidden'}`}>
+//                         <img src={img} alt="" className="w-full" />
+//                     </div>
+//                 ))}
+//             </div>
+//
+//             <div className="flex justify-center w-full  py-2 gap-2">
+//                 {images.map((_, index) => (
+//                     <button key={index} onClick={() => handleButtonClick(index)} className="btn btn-l bg-blue-200 text-white">
+//                         {index + 1}
+//                     </button>
+//                 ))}
+//             </div>
+//         </div>
+//     );
+// };
+//
+// export default Pages89;

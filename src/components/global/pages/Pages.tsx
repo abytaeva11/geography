@@ -114,6 +114,11 @@ import Pages101 from "src/components/global/pages/AllPages/Pages101";
 import Pages103 from "src/components/global/pages/AllPages/Pages103";
 import Pages104 from "src/components/global/pages/AllPages/Pages104";
 import Pages99 from "src/components/global/pages/AllPages/Pages99";
+import Pages113 from "src/components/global/pages/AllPages/Pages113";
+import Pages114 from "src/components/global/pages/AllPages/Pages114";
+import Pages115 from "src/components/global/pages/AllPages/Pages115";
+import Pages116 from "src/components/global/pages/AllPages/Pages116";
+import Pages117 from "src/components/global/pages/AllPages/Pages117";
 
 interface PagesState {
     currentPage: number;
@@ -261,7 +266,7 @@ class Pages extends Component<{}, PagesState> {
                             {i === 81 && <Pages82/>}
                             {i === 82 && <Pages83/>}
                             {i === 83 && <Pages84/>}
-                            {i === 83 && <Pages85/>}
+                            {i === 84 && <Pages85/>}
                             {i === 85 && <Pages86/>}
                             {i === 86 && <Pages87/>}
                             {i === 87 && <Pages88/>}
@@ -289,6 +294,12 @@ class Pages extends Component<{}, PagesState> {
                             {i === 109 && <Pages110/>}
                             {i === 110 && <Pages111/>}
                             {i === 111 && <Pages112/>}
+                            {i === 112 && <Pages113/>}
+                            {i === 113 && <Pages114/>}
+                            {i === 114 && <Pages115/>}
+                            {i === 115 && <Pages116/>}
+                            {i === 116 && <Pages117/>}
+
 
 
 
