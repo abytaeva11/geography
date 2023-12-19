@@ -40,6 +40,9 @@ import Notebook7 from "src/components/global/notebook/pages/Notebook7";
 import Notebook8 from "src/components/global/notebook/pages/Notebook8";
 import Notebook9 from "src/components/global/notebook/pages/Notebook9";
 import Notebook10 from "src/components/global/notebook/pages/Notebook10";
+import ImageGuess from "src/components/global/Interactive/Interactive";
+import Interactive from "src/components/global/Interactive/Interactive";
+import QuizGame from "src/components/global/Interactive/Interactive";
 
 const Global = () => {
     return (
@@ -53,6 +56,7 @@ const Global = () => {
                         <Route path="/" element={<Pages/>}/>
                         <Route path="/test" element={<Test/>}/>
                         <Route path="/sleep-work" element={<Pages/>}/>
+                        <Route path="/interactive" element={<Interactive/>}/>
 
                         <Route path="/test-pages1" element={<TestPages1/>}/>
                         <Route path="/test-pages2" element={<TestPages2/>}/>

@@ -43,7 +43,7 @@ const Pages2 = () => {
                 менен дипломатиялык
                 байланыш жургузуп келет.</h4>
             <div className="page3-card">
-                <div>
+                <div className=" ">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50574.217457732324!2d69.33856968343704!3d37.39269079066611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38c90b92dc05e79f%3A0x85259d8bfa2e3986!2z0JPRgNCw0L3QuNGG0LAsINCi0LDQtNC20LjQutC40YHRgtCw0L0!5e0!3m2!1sru!2skg!4v1696935698549!5m2!1sru!2skg"
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
